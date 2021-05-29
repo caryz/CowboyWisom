@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var wrapperView: UIView!
     @IBOutlet weak var wisdomLabel: UILabel!
+    @IBOutlet weak var wisdomButton: ResizableButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()

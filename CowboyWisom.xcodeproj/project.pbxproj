@@ -16,6 +16,7 @@
 		4A06C9B8266219D700281E2E /* CowboyWisomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A06C9B7266219D700281E2E /* CowboyWisomTests.swift */; };
 		4A06C9C3266219D700281E2E /* CowboyWisomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A06C9C2266219D700281E2E /* CowboyWisomUITests.swift */; };
 		4A06C9D22662955D00281E2E /* WisdomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A06C9D12662955D00281E2E /* WisdomData.swift */; };
+		4A06C9D526629C3100281E2E /* ResizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A06C9D426629C3100281E2E /* ResizableButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4A06C9C2266219D700281E2E /* CowboyWisomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowboyWisomUITests.swift; sourceTree = "<group>"; };
 		4A06C9C4266219D700281E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A06C9D12662955D00281E2E /* WisdomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisdomData.swift; sourceTree = "<group>"; };
+		4A06C9D426629C3100281E2E /* ResizableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		4A06C99F266219D600281E2E /* CowboyWisom */ = {
 			isa = PBXGroup;
 			children = (
+				4A06C9D326629BF000281E2E /* Components */,
 				4A06C9D02662954B00281E2E /* Data */,
 				4A06C9A0266219D600281E2E /* AppDelegate.swift */,
 				4A06C9A2266219D600281E2E /* SceneDelegate.swift */,
@@ -137,6 +140,14 @@
 				4A06C9D12662955D00281E2E /* WisdomData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		4A06C9D326629BF000281E2E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4A06C9D426629C3100281E2E /* ResizableButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 			files = (
 				4A06C9D22662955D00281E2E /* WisdomData.swift in Sources */,
 				4A06C9A5266219D600281E2E /* ViewController.swift in Sources */,
+				4A06C9D526629C3100281E2E /* ResizableButton.swift in Sources */,
 				4A06C9A1266219D600281E2E /* AppDelegate.swift in Sources */,
 				4A06C9A3266219D600281E2E /* SceneDelegate.swift in Sources */,
 			);
