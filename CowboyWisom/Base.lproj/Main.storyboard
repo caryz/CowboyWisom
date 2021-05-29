@@ -18,7 +18,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQ1-1u-Gce" customClass="ResizableButton" customModule="CowboyWisom" customModuleProvider="target">
                                 <rect key="frame" x="16" y="816" width="382" height="30"/>
-                                <state key="normal" title="Wisdom"/>
+                                <state key="normal" title="Get Some Cowboy Wisdom"/>
                                 <connections>
                                     <action selector="wisdomButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ghy-aF-UPp"/>
                                 </connections>
